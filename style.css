@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Rock+Salt&display=swap");
 body, html, main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,17 +7,23 @@ body, html, main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: 'Jost', sans-serif;
 }
 
 body, html {
   height: 100%;
+  color: #161a1d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0b090a;
 }
 
 main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background: url("images/bg.png");
+  background: url("./images/bg.png");
   background-attachment: fixed;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -38,5 +45,17 @@ a:hover, .nav-link:hover {
 
 .card.work-item {
   margin-bottom: 1em;
+}
+
+#home-title, #home-byline {
+  opacity: 0;
+}
+
+#byline-accent {
+  font-family: 'Rock Salt', 'Times New Roman', serif;
+}
+
+.text-primary {
+  color: #ba181b !important;
 }
 /*# sourceMappingURL=style.css.map */
