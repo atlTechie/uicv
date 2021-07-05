@@ -66,6 +66,11 @@ a:hover, .nav-link:hover {
   opacity: 0;
 }
 
+#instructions {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
 #byline-accent {
   font-family: 'Rock Salt', 'Times New Roman', serif;
 }
