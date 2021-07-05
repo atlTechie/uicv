@@ -1,0 +1,35 @@
+@import "scss/_variables.scss";
+
+body, html, main{
+    display: flex;
+    flex-direction: column;    
+}
+
+body, html{
+    height: 100%;
+}
+
+main{ 
+    flex-grow: 1;
+    background: url('images/bg.png');
+    background-attachment: fixed;
+    justify-content: center;
+    padding: 6em 0;
+}
+
+// Links
+a, .nav-link{
+    color: $primary;
+    &:hover{
+        color: $primary-dark;
+    }
+}
+
+.nav-pills .nav-link.active{
+    background: $primary;
+}
+
+.card.work-item{
+    margin-bottom: 1em;
+   
+}
