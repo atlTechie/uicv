@@ -32,9 +32,10 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-// Links
+// Links + Buttons
 a, .nav-link{
     color: $primary;
+    text-decoration: none;
     &:hover{
         color: $primary-dark;
     }
@@ -42,6 +43,27 @@ a, .nav-link{
 
 .nav-pills .nav-link.active{
     background: $primary;
+}
+
+.btn-primary{
+    background: $primary;
+    border-color: $primary;
+    border-radius: 2px;
+    &:hover{
+        background: $primary-xtra-dark;
+        border-color: $primary;
+    }
+}
+
+.btn-outline-primary{
+    border-color: $primary;
+    color: $primary;
+    border-radius: 2px;
+    &:hover{
+       background: $primary;
+       color: white; 
+       border-color: $primary;
+    }
 }
 
 .card.work-item{
@@ -64,5 +86,14 @@ a, .nav-link{
 
 .text-primary{
     color: $primary!important;
+}
+
+.display-4{
+  
+   ::after{
+       content: 'per hour';
+       font-size: .8rem;
+       position: relative;
+   } 
 }
 

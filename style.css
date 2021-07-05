@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, .nav-link {
   color: #ba181b;
+  text-decoration: none;
 }
 
 a:hover, .nav-link:hover {
@@ -56,6 +57,29 @@ a:hover, .nav-link:hover {
 
 .nav-pills .nav-link.active {
   background: #ba181b;
+}
+
+.btn-primary {
+  background: #ba181b;
+  border-color: #ba181b;
+  border-radius: 2px;
+}
+
+.btn-primary:hover {
+  background: #660708;
+  border-color: #ba181b;
+}
+
+.btn-outline-primary {
+  border-color: #ba181b;
+  color: #ba181b;
+  border-radius: 2px;
+}
+
+.btn-outline-primary:hover {
+  background: #ba181b;
+  color: white;
+  border-color: #ba181b;
 }
 
 .card.work-item {
@@ -77,5 +101,11 @@ a:hover, .nav-link:hover {
 
 .text-primary {
   color: #ba181b !important;
+}
+
+.display-4 ::after {
+  content: 'per hour';
+  font-size: .8rem;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

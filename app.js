@@ -4,18 +4,18 @@ gsap.fromTo("#home-message", {scale: 0, ease: "elastic"},{scale: 1, delay: .8, d
 gsap.fromTo("#instructions", {scale: 0,}, {scale: 1, delay: 1, duration: .3});
 
 // Page Transitions
-barba.init({
-  transitions: [{
-    name: 'opacity-transition',
-    leave(data) {
-      return gsap.to(data.current.container, {
-        opacity: 1, background: "#ba181b"
-      });
-    },
-    enter(data) {
-      return gsap.from(data.next.container, {
-        opacity: 0
-      });
-    }
-  }]
-});
+// barba.init({
+//   transitions: [{
+//     name: 'opacity-transition',
+//     leave(data) {
+//       return gsap.to(data.current.container, {
+//         opacity: 1, background: "#ba181b"
+//       });
+//     },
+//     enter(data) {
+//       return gsap.from(data.next.container, {
+//         opacity: 0
+//       });
+//     }
+//   }]
+// });
