@@ -1,6 +1,8 @@
 @import "scss/_variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Rock+Salt&display=swap');
-
+*{
+    box-sizing: border-box;
+}
 body, html, main{
     display: flex;
     flex-direction: column; 
@@ -12,11 +14,6 @@ body, html{
     color: $text;
 }
 
-h1, h2, h3, h4, h5, h6{
-    color: $heading;
-}
-
-
 main{ 
     flex-grow: 1;
     background: url('./images/bg.png');
@@ -24,6 +21,16 @@ main{
     justify-content: center;
     padding: 6em 0;
 }
+::selection{
+    background: $primary;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $heading;
+}
+
+
 
 // Links
 a, .nav-link{
@@ -48,6 +55,7 @@ a, .nav-link{
 
 #byline-accent{
     font-family: 'Rock Salt', 'Times New Roman', serif;
+   
 }
 
 .text-primary{
