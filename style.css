@@ -108,4 +108,36 @@ a:hover, .nav-link:hover {
   font-size: .8rem;
   position: relative;
 }
+
+.work-icon-wrapper {
+  background: #ba181b;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.work-img-wrapper {
+  height: 229px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.work-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media (min-width: 768px) {
+  .work-img-wrapper {
+    height: 329px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

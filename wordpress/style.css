@@ -1,0 +1,121 @@
+/*
+Theme Name: DevDoneWright Theme
+Theme URI: https://devdonewright.com
+Author: Your Name
+Author URI: https://devdonewright.com
+Description: Wordpress theme for DevDoneWright Software UI development
+Version: 1.0.0
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Rock+Salt&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html, main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Jost', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  color: #161a1d;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background: url("./images/bg.png");
+  background-attachment: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6em 0;
+}
+
+::-moz-selection {
+  background: #ba181b;
+  color: white;
+}
+
+::selection {
+  background: #ba181b;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0b090a;
+}
+
+a, .nav-link {
+  color: #ba181b;
+  text-decoration: none;
+}
+
+a:hover, .nav-link:hover {
+  color: #a4161a;
+}
+
+.nav-pills .nav-link.active {
+  background: #ba181b;
+}
+
+.btn-primary {
+  background: #ba181b;
+  border-color: #ba181b;
+  border-radius: 2px;
+}
+
+.btn-primary:hover {
+  background: #660708;
+  border-color: #ba181b;
+}
+
+.btn-outline-primary {
+  border-color: #ba181b;
+  color: #ba181b;
+  border-radius: 2px;
+}
+
+.btn-outline-primary:hover {
+  background: #ba181b;
+  color: white;
+  border-color: #ba181b;
+}
+
+.card.work-item {
+  margin-bottom: 1em;
+}
+
+#home-title, #home-byline {
+  opacity: 0;
+}
+
+#instructions {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#byline-accent {
+  font-family: 'Rock Salt', 'Times New Roman', serif;
+}
+
+.text-primary {
+  color: #ba181b !important;
+}
+
+.display-4 ::after {
+  content: 'per hour';
+  font-size: .8rem;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
