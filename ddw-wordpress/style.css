@@ -1,7 +1,7 @@
 /*
-Theme Name: DevDoneWright Theme
+Theme Name: DevDoneWright Theme 2.0
 Theme URI: https://devdonewright.com
-Author: Your Name
+Author: E. Wright
 Author URI: https://devdonewright.com
 Description: Wordpress theme for DevDoneWright Software UI development
 Version: 1.0.0
@@ -61,6 +61,12 @@ a, .nav-link {
   text-decoration: none;
 }
 
+.navbar-brand img{
+	width: 35px!important;
+	height: auto;}
+
+.nav-item a{padding-right: .5rem; padding-left: .5rem;}
+
 a:hover, .nav-link:hover {
   color: #a4161a;
 }
@@ -73,11 +79,18 @@ a:hover, .nav-link:hover {
   background: #ba181b;
   border-color: #ba181b;
   border-radius: 2px;
+	color: white!important;
 }
+
+
 
 .btn-primary:hover {
   background: #660708;
   border-color: #ba181b;
+}
+
+#menu-item-95 a{
+	color: white;
 }
 
 .btn-outline-primary {
